@@ -8,6 +8,7 @@ import slugify from "slugify";
 import { TRPCClientError } from "@trpc/client";
 import { X } from "lucide-react";
 import { LoadingSpinner } from "~/svgs";
+import HashnodePlus from "~/svgs/HashnodePlus";
 import { type ArticleCard, type DefaultEditorContent } from "~/types";
 import { api } from "~/utils/api";
 import generateContent from "~/utils/contentGenerator";
@@ -395,7 +396,7 @@ const NewArticleModal: FC<Props> = ({
                     {generatingContent.seo_title ? (
                       <LoadingSpinner className="h-5 w-5 fill-none stroke-slate-800" />
                     ) : (
-                      <codexaPlus className="h-5 w-5 stroke-slate-600 dark:stroke-slate-300" />
+                      <HashnodePlus className="h-5 w-5 stroke-slate-600 dark:stroke-slate-300" />
                     )}
                   </button>
                 </div>
@@ -464,7 +465,7 @@ const NewArticleModal: FC<Props> = ({
                     {generatingContent.seo_description ? (
                       <LoadingSpinner className="h-5 w-5 fill-none stroke-slate-800" />
                     ) : (
-                      <codexaPlus className="h-5 w-5 stroke-slate-600 dark:stroke-slate-300" />
+                      <HashnodePlus className="h-5 w-5 stroke-slate-600 dark:stroke-slate-300" />
                     )}
                   </button>
                 </div>
