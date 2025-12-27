@@ -176,6 +176,9 @@ importers:
       postgres:
         specifier: ^3.4.3
         version: 3.4.7
+      prosemirror-model:
+        specifier: ^1.25.4
+        version: 1.25.4
       react:
         specifier: 18.2.0
         version: 18.2.0
