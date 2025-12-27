@@ -41,7 +41,7 @@ const MetaTags: React.FC<Props> = ({
 
       <meta
         name="keywords"
-        content="codexa, codexa-clone, codexa-t3, codexa-nextjs"
+        content="codexa, codexa-clone, codexa, codexa-nextjs"
       />
       <meta
         name="googlebot"

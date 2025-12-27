@@ -1,6 +1,6 @@
 import { useSession } from "next-auth/react";
+import Image from "next/image";
 import { useRouter } from "next/router";
-import { LogonoText } from "~/svgs";
 import { api } from "~/utils/api";
 
 const Subscription = () => {
@@ -39,7 +39,13 @@ const Subscription = () => {
             <div className="flex-1">
               <header className="mb-2 flex items-center gap-2">
                 <span className="">
-                  <LogonoText className="h-6 w-6 stroke-gray-700 dark:stroke-text-secondary" />
+                  <Image
+                    src={"/static/logo.svg"}
+                    width={100}
+                    height={100}
+                    className="size-7"
+                    alt=""
+                  />{" "}
                 </span>
                 <p className="flex items-center gap-2 text-xl font-bold text-black dark:text-white">
                   Codexa

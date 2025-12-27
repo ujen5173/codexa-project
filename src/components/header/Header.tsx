@@ -4,7 +4,7 @@ import { useSession } from "next-auth/react";
 import Image from "next/image";
 import Link from "next/link";
 import React, { useState } from "react";
-import { Logo, LogonoText } from "~/svgs";
+import { Logo } from "~/svgs";
 import ProfileDropdown from "../dropdowns/ProfileDropdown";
 import UnAuthenticatedProfileDropdown from "../dropdowns/UnAuthenticatedProfileDropdown";
 import HamburgerMenu from "../menu/global/MobileMenu";
@@ -42,7 +42,6 @@ const Header: React.FC<{ search?: boolean }> = ({ search = true }) => {
 
             <Link href={"/"}>
               <Logo className="hidden h-6 fill-secondary md:block" />
-              <LogonoText className="block h-7 fill-secondary md:hidden" />
             </Link>
           </div>
           {search && <SearchArea />}

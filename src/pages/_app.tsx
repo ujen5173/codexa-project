@@ -97,7 +97,7 @@ const MyApp: AppType<{ session: Session | null }> = ({
       <SpeedInsights />
       <Loglib
         config={{
-          id: "codexa-t3",
+          id: "codexa",
         }}
       />
 

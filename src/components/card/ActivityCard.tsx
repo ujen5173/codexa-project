@@ -3,7 +3,7 @@ import Link from "next/link";
 import { useRouter } from "next/router";
 import { type FC } from "react";
 import { v4 as uuid } from "uuid";
-import { LogonoText } from "~/svgs";
+import { Logo } from "~/svgs";
 import { type Activity } from "~/utils/microFunctions";
 
 interface Props {
@@ -24,7 +24,7 @@ const ActivityCard: FC<Props> = ({ index, item, activityLength }) => {
     >
       <div className="mb-2 flex items-center gap-2 last:mb-0">
         {item.activity_type === "JOINED" ? (
-          <LogonoText className="h-4 w-4 fill-secondary" />
+          <Logo className="h-4 w-4 fill-secondary" />
         ) : (
           <Pencil className="h-4 w-4 fill-none stroke-gray-700 dark:stroke-text-secondary" />
         )}

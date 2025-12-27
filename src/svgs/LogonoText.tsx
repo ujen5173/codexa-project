@@ -1,4 +1,4 @@
-const LogonoText = (props: { className: string }) => {
+const Logo = (props: { className: string }) => {
   return (
     <svg {...props} viewBox="0 0 57 56">
       <path
@@ -10,4 +10,4 @@ const LogonoText = (props: { className: string }) => {
     </svg>
   );
 };
-export default LogonoText;
+export default Logo;

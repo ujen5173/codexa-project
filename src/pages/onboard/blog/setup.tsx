@@ -111,7 +111,7 @@ const Setup = () => {
                 placeholder="Enter a domain name"
                 type="INPUT"
                 variant="FILLED"
-                label="Choose a domain for your blog (johndoe.codexa-t3.app)"
+                label="Choose a domain for your blog (johndoe.codexa.app)"
                 required={false}
                 value={handle.domain}
               />

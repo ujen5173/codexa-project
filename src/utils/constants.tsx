@@ -23,7 +23,7 @@ import {
 } from "lucide-react";
 import { v4 as uuid } from "uuid";
 import { env } from "~/env.mjs";
-import { Dailydev, Discord, LogonoText, Mastodon } from "~/svgs";
+import { Dailydev, Discord, Logo, Mastodon } from "~/svgs";
 
 export const slugSetting = {
   lower: true,
@@ -361,13 +361,6 @@ export const codexaSocials = [
     icon: <Discord className="h-5 w-5 fill-slate-500 dark:fill-text-primary" />,
     link: "https://discord.com/ujen5173/",
   },
-  {
-    name: "codexa",
-    icon: (
-      <LogonoText className="h-5 w-5 fill-slate-500 dark:fill-text-primary" />
-    ),
-    link: "https://codexa.com/@ujenbasi575",
-  },
 ];
 
 export const selectArticleCard = {
@@ -555,7 +548,7 @@ export const articleProfileDropdownList = [
   },
   {
     name: "Back to codexa",
-    icon: <LogonoText className="h-4 w-4 fill-secondary" />,
+    icon: <Logo className="h-4 w-4 fill-secondary" />,
     link: () => "/",
     hiddenItem: false,
     danger: false,

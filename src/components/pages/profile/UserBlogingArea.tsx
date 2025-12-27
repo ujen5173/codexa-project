@@ -24,7 +24,7 @@ const UserBlogingArea: FC<{
           </h1>
 
           <h1 className="text-sm font-normal text-gray-700 dark:text-text-primary md:text-base">
-            {userDetails?.handle?.handle}.codexa-t3.vercel.app
+            {userDetails?.handle?.handle}.codexa.vercel.app
           </h1>
         </div>
 

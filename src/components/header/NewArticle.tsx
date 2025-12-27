@@ -2,7 +2,7 @@ import { ChevronLeft, Sun } from "lucide-react";
 import { useSession } from "next-auth/react";
 import Link from "next/link";
 import React, { useContext, type FC } from "react";
-import { LogonoText } from "~/svgs";
+import { Logo } from "~/svgs";
 
 import { C } from "~/utils/context";
 
@@ -34,7 +34,7 @@ const NewArticleHeader: FC<Props> = ({ setPublishModal, publishing }) => {
               href={`/u/@${user?.user.username}`}
               className="flex items-center gap-2"
             >
-              <LogonoText className="h-7 fill-secondary" />
+              <Logo className="h-7 fill-secondary" />
               <span className="hidden text-sm font-semibold text-gray-700 dark:text-text-secondary sm:block md:text-lg">
                 {user?.user.username}&apos;s Blog
               </span>

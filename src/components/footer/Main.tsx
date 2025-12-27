@@ -10,6 +10,14 @@ const Footer = () => {
         >
           Ujen Basi
         </a>
+        <span> and </span>
+        <a
+          target={"_blank"}
+          href="https://github.com/ashweshashrestha"
+          className="font-semibold text-secondary underline"
+        >
+          Ashwesha Shrestha
+        </a>
       </p>
 
       <ul className="my-4 flex gap-1 text-gray-700 dark:text-text-secondary">

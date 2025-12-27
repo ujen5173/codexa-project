@@ -10,7 +10,7 @@ const Account = () => {
         Your Codexa account administers these blogs:{" "}
         <span className="font-medium">
           {" "}
-          {session?.user.handle?.handle}.codexa-t3.dev
+          {session?.user.handle?.handle}.codexa.dev
         </span>
       </p>
       <p className="mb-6 text-lg text-gray-700 dark:text-text-secondary">
