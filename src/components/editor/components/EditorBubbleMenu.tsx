@@ -172,7 +172,7 @@ export const EditorBubbleMenu: FC<EditorBubbleMenuProps> = (props) => {
         )}
       </div>
       <LinkSelector
-        editor={props.editor}
+        editor={props.editor ?? undefined}
         isOpen={isLinkSelectorOpen}
         setIsOpen={() => {
           setIsLinkSelectorOpen(!isLinkSelectorOpen);
