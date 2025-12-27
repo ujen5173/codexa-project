@@ -21,6 +21,7 @@ import {
   Users,
   Youtube,
 } from "lucide-react";
+import Image from "next/image";
 import { v4 as uuid } from "uuid";
 import { env } from "~/env.mjs";
 import { Dailydev, Discord, Logo, Mastodon } from "~/svgs";
@@ -548,7 +549,13 @@ export const articleProfileDropdownList = [
   },
   {
     name: "Back to codexa",
-    icon: <Logo className="h-4 w-4 fill-secondary" />,
+    icon: <Image
+                        src={"/static/logo.svg"}
+                        width={100}
+                        height={100}
+                        className="size-7"
+                        alt=""
+                      />,
     link: () => "/",
     hiddenItem: false,
     danger: false,
