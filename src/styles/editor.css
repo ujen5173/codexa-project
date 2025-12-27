@@ -1,0 +1,247 @@
+.ProseMirror:first-child,
+.article:first-child {
+  margin-top: 0 !important;
+}
+
+.ProseMirror:last-child,
+.article:last-child {
+  margin-bottom: 0 !important;
+}
+
+.ProseMirror,
+.article {
+  line-height: 36px;
+  font-weight: 400;
+  font-size: 20px;
+  color: #111111;
+}
+.ProseMirror ol,
+.ProseMirror ul,
+.article ol,
+.article ul {
+  list-style-type: auto;
+  padding-left: 25px;
+}
+.ProseMirror h1,
+.article h1 {
+  font-weight: 700;
+  color: #111827;
+  font-size: 40px;
+  line-height: 48px;
+  margin-top: 44px;
+  margin-bottom: 28px;
+}
+.ProseMirror h2,
+.article h2 {
+  font-weight: 700;
+  color: #111827;
+  font-size: 36px;
+  line-height: 40px;
+  margin-top: 42px;
+  margin-bottom: 28px;
+}
+.ProseMirror h3,
+.article h3 {
+  font-weight: 600;
+  color: #111827;
+  font-size: 32px;
+  line-height: 36px;
+  margin-top: 40px;
+  margin-bottom: 28px;
+}
+.ProseMirror p,
+.article p {
+  line-height: 36px;
+  font-weight: 400;
+  font-size: 20px;
+  color: #111111;
+  margin: 24px 0;
+}
+.ProseMirror strong,
+.ProseMirror em,
+.article strong,
+.article em {
+  font-weight: 600;
+  color: #111827;
+}
+.ProseMirror a,
+.article a {
+  font-weight: 500;
+  text-decoration: underline;
+}
+.ProseMirror code,
+.article code {
+  background: #e5e5e5;
+  color: #000000;
+  border: 1px solid #c9c9c9;
+  padding: 0.2rem 0.5rem;
+  border-radius: 7px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 29px;
+}
+.ProseMirror pre,
+.article pre {
+  background: #e5e5e5;
+  color: #000000;
+  border: 1px solid #c9c9c9;
+  border-radius: 10px;
+  margin: 32px 0;
+  padding: 20px;
+  overflow: auto;
+  width: 100%;
+}
+.ProseMirror pre code,
+.article pre code {
+  background: #e5e5e5;
+  color: #000000;
+  border: none !important;
+  margin: 0 !important;
+  padding: 0 !important;
+}
+.ProseMirror pre code *,
+.article pre code * {
+  margin: 0 !important;
+  padding: 0 !important;
+}
+.ProseMirror pre code .hljs-comment,
+.ProseMirror pre code .hljs-quote,
+.article pre code .hljs-comment,
+.article pre code .hljs-quote {
+  color: #616161;
+}
+.ProseMirror pre code .hljs-variable,
+.ProseMirror pre code .hljs-template-variable,
+.ProseMirror pre code .hljs-attribute,
+.ProseMirror pre code .hljs-tag,
+.ProseMirror pre code .hljs-name,
+.ProseMirror pre code .hljs-regexp,
+.ProseMirror pre code .hljs-link,
+.ProseMirror pre code .hljs-name,
+.ProseMirror pre code .hljs-selector-id,
+.ProseMirror pre code .hljs-selector-class,
+.article pre code .hljs-variable,
+.article pre code .hljs-template-variable,
+.article pre code .hljs-attribute,
+.article pre code .hljs-tag,
+.article pre code .hljs-name,
+.article pre code .hljs-regexp,
+.article pre code .hljs-link,
+.article pre code .hljs-name,
+.article pre code .hljs-selector-id,
+.article pre code .hljs-selector-class {
+  color: #f98181;
+}
+.ProseMirror pre code .hljs-number,
+.ProseMirror pre code .hljs-meta,
+.ProseMirror pre code .hljs-built_in,
+.ProseMirror pre code .hljs-builtin-name,
+.ProseMirror pre code .hljs-literal,
+.ProseMirror pre code .hljs-type,
+.ProseMirror pre code .hljs-params,
+.article pre code .hljs-number,
+.article pre code .hljs-meta,
+.article pre code .hljs-built_in,
+.article pre code .hljs-builtin-name,
+.article pre code .hljs-literal,
+.article pre code .hljs-type,
+.article pre code .hljs-params {
+  color: #fbbc88;
+}
+.ProseMirror pre code .hljs-string,
+.ProseMirror pre code .hljs-symbol,
+.ProseMirror pre code .hljs-bullet,
+.article pre code .hljs-string,
+.article pre code .hljs-symbol,
+.article pre code .hljs-bullet {
+  color: #b9f18d;
+}
+.ProseMirror pre code .hljs-title,
+.ProseMirror pre code .hljs-section,
+.article pre code .hljs-title,
+.article pre code .hljs-section {
+  color: #faf594;
+}
+.ProseMirror pre code .hljs-keyword,
+.ProseMirror pre code .hljs-selector-tag,
+.article pre code .hljs-keyword,
+.article pre code .hljs-selector-tag {
+  color: #70cff8;
+}
+.ProseMirror pre code .hljs-emphasis,
+.article pre code .hljs-emphasis {
+  font-style: italic;
+}
+.ProseMirror pre code .hljs-strong,
+.article pre code .hljs-strong {
+  font-weight: 700;
+}
+.ProseMirror ul,
+.ProseMirror ol,
+.article ul,
+.article ol {
+  margin: 24px 0;
+}
+.ProseMirror li > *,
+.article li > * {
+  margin: 12px 0;
+}
+.ProseMirror blockquote,
+.article blockquote {
+  border-color: #e2e8f0;
+  font-style: italic;
+  margin: 32px 0;
+}
+
+body.dark .article *,
+body.dark .ProseMirror * {
+  color: #fafafa;
+}
+body.dark .article code,
+body.dark .ProseMirror code {
+  background: #1e293b;
+  color: #e5e7eb;
+  border: 1px solid #3b4657;
+}
+body.dark .article pre,
+body.dark .ProseMirror pre {
+  background: #1e293b;
+  border: 1px solid #3b4657;
+  color: #e5e7eb;
+}
+body.dark .article pre code,
+body.dark .ProseMirror pre code {
+  background: transparent !important;
+  border: none !important;
+}
+
+@media screen and (max-width: 1024px) {
+  .article,
+  .articleProseMirror {
+    font-size: 18px;
+    line-height: 32px;
+  }
+  .article p,
+  .article span,
+  .articleProseMirror p,
+  .articleProseMirror span {
+    font-size: 18px;
+    line-height: 32px;
+  }
+  h1 {
+    font-size: 34px;
+    line-height: 44px;
+  }
+  h2 {
+    font-size: 30px;
+    line-height: 40px;
+  }
+  h3 {
+    font-size: 26px;
+    line-height: 36px;
+  }
+  pre code {
+    font-size: 16px;
+    line-height: 28px;
+  }
+}/*# sourceMappingURL=editor.css.map */

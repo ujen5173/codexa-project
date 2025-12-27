@@ -1,0 +1,10 @@
+export { default as Dailydev } from "./Dailydev";
+export { default as Discord } from "./Discord";
+export { default as Google } from "./Google";
+export { default as LoadingSpinner } from "./LoadingSpinner";
+export { default as Logo } from "./Logo";
+export { default as LogonoText } from "./LogonoText";
+export { default as Mastodon } from "./Mastodon";
+export { default as Reddit } from "./Reddit";
+export { default as Stackoverflow } from "./Stackoverflow";
+export { default as WhatsApp } from "./WhatsApp";
